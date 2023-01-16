@@ -1,0 +1,51 @@
+body {
+  background-color: #333;
+  color: #ccc;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+img {
+  width: 150px;
+  margin: 20px 0;
+}
+
+ul {
+   display: flex;
+   flex-wrap: wrap;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ width: 350px;
+  text-align: center;
+  list-style-type: none;
+  padding: 20px;
+  background-color: rgb(93, 86, 86);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+p{
+    font-size: 24px;
+}
+

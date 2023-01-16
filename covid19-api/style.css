@@ -1,0 +1,19 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: #333;
+    color: white;
+}
+
+input{
+    height: 45px;
+    width: 250px;
+    border-radius: 40px;
+    padding-left: 20px;
+    border: none;
+}
