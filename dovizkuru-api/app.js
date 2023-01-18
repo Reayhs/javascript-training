@@ -8,7 +8,7 @@ async function getApi() {
   const EUR = TRY / res.conversion_rates.EUR;
   const USD = TRY / res.conversion_rates.USD;
   const GBP = TRY / res.conversion_rates.GBP;
-  setData(EUR, USD, GBP);
+  setData(USD, EUR, GBP);
 }
 
 function setData(item1, item2, item3) {
